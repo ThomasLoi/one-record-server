@@ -221,6 +221,17 @@ public class Shipment
 
     protected Value compansation;
 
+    @OWLObjectProperty(iri = Vocabulary.s_p_ship_co2Emissions)
+    protected Set<CO2Emissions> co2Emissions;
+
+    public Set<CO2Emissions> getCo2Emissions() {
+        return co2Emissions;
+    }
+
+    public void setCo2Emissions(Set<CO2Emissions> co2Emissions) {
+        this.co2Emissions = co2Emissions;
+    }
+
     public Participant getParticipant() {
         return participant;
     }

@@ -1558,6 +1558,9 @@ public class Vocabulary {
      */
     public final static String s_p_co2Emissions = "https://onerecord.iata.org/TransportMovement#co2Emissions";
     public final static IRI p_co2Emissions = IRI.create(s_p_co2Emissions);
+
+    public final static String s_p_ship_co2Emissions = "https://onerecord.iata.org/Shipment#co2Emissions";
+    public final static IRI p_ship_co2Emissions = IRI.create(s_p_ship_co2Emissions);
     /**
      * Departure location details
      * 
