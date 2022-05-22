@@ -443,8 +443,8 @@ public class Vocabulary {
     public final static String s_c_Value = "https://onerecord.iata.org/Value";
     public final static IRI c_Value = IRI.create(s_c_Value);
 
-    public final static String s_c_Agent = "https://onerecord.iata.org/Agent";
-    public final static IRI c_Agent = IRI.create(s_c_Agent);
+    public final static String s_c_Participant = "https://onerecord.iata.org/Participant";
+    public final static IRI c_Participant = IRI.create(s_c_Participant);
     /**
      * Unit of measurement details
      * 
@@ -1493,8 +1493,8 @@ public class Vocabulary {
     public final static IRI p_recommendedAmount = IRI.create(s_p_recommendedAmount);
 
 
-    public final static String s_p_Agent= "https://onerecord.iata.org/Shipment#Agent";
-    public final static IRI p_Agent= IRI.create(s_p_Agent);
+    public final static String s_p_Participant= "https://onerecord.iata.org/Shipment#Participant";
+    public final static IRI p_Participant = IRI.create(s_p_Participant);
 
     public final static String s_p_compensation = "https://onerecord.iata.org/Shipment#compensation";
     public final static IRI p_compensation = IRI.create(s_p_compensation);

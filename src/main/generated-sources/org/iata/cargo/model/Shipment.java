@@ -210,23 +210,23 @@ public class Shipment
     })
     protected String weightValuationIndicator;
 
-    @OWLObjectProperty(iri = Vocabulary.s_p_Agent)
+    @OWLObjectProperty(iri = Vocabulary.s_p_Participant)
     @ParticipationConstraints({
             @ParticipationConstraint(owlObjectIRI = Vocabulary.s_c_Thing, min = 1, max = -1),
             @ParticipationConstraint(owlObjectIRI = Vocabulary.s_c_Thing, max = 1)
     })
-    protected Agent agent;
+    protected Participant participant;
 
     protected String carbonFootPrint;
 
     protected Value compansation;
 
-    public Agent getAgent() {
-        return agent;
+    public Participant getParticipant() {
+        return participant;
     }
 
-    public void setAgent(Agent agent) {
-        this.agent = agent;
+    public void setParticipant(Participant participant) {
+        this.participant = participant;
     }
 
     public void setContainedPieces(Set<Piece> containedPieces) {
